@@ -6,11 +6,19 @@ This is a minimal starter project using Python.
 
 1. Install a Python 3 interpreter.
 2. (Optional) Create and activate a virtual environment.
-3. Run the application:
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the Flask application:
 
 ```bash
 python src/main.py
 ```
+
+You can set the ``PORT`` environment variable to change the listening port.
 
 ## Project Structure
 
